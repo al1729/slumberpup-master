@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sleephealthdog"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
+11-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:22:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+14-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.1] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/75e70da198df93807ed751edcaee621f/core-1.0.1/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:10:9-35
+25        android:theme="@style/AppTheme" >
+25-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:11:9-40
+26        <activity android:name="com.example.sleephealthdog.HistoryPage" />
+26-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:12:9-58
+26-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:12:19-46
+27        <activity android:name="com.example.sleephealthdog.googlelogin" />
+27-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:13:9-49
+27-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:13:19-46
+28        <activity android:name="com.example.sleephealthdog.MainActivity" >
+28-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:14:9-20:20
+28-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:14:19-47
+29            <intent-filter>
+29-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:15:13-19:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:16:17-69
+30-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:16:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:18:17-77
+32-->/Users/andrewyu/Documents/GitHub/hacksc-thots/app/src/main/AndroidManifest.xml:18:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+36            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+36-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+37            android:excludeFromRecents="true"
+37-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+38            android:exported="false"
+38-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+39            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+39-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+40        <!--
+41            Service handling Google Sign-In user revocation. For apps that do not integrate with
+42            Google Sign-In, this service will never be started.
+43        -->
+44        <service
+44-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+45            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+45-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+46            android:exported="true"
+46-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+47            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+47-->[com.google.android.gms:play-services-auth:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/59706fb0cd949f5b3e2f42e1e02500e1/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+48        <service
+48-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:28:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:19.3.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/dbd328906607d7813ce438e32b77f214/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+51            android:exported="false" >
+51-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+53                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+53-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/3d8bed9a53529358f2c71b6407804b7b/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+56                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+56-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+58        </service>
+59
+60        <receiver
+60-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+61            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+61-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+62            android:exported="true"
+62-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+63            android:permission="com.google.android.c2dm.permission.SEND" >
+63-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+64            <intent-filter>
+64-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+65                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+65-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+65-->[com.google.firebase:firebase-iid:20.0.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/946a39d7756c6b05aa38a853bdffc128/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+66            </intent-filter>
+67        </receiver>
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+73
+74        <provider
+74-->[com.google.firebase:firebase-common:19.3.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/dbd328906607d7813ce438e32b77f214/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+75            android:name="com.google.firebase.provider.FirebaseInitProvider"
+75-->[com.google.firebase:firebase-common:19.3.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/dbd328906607d7813ce438e32b77f214/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+76            android:authorities="com.example.sleephealthdog.firebaseinitprovider"
+76-->[com.google.firebase:firebase-common:19.3.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/dbd328906607d7813ce438e32b77f214/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:19.3.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/dbd328906607d7813ce438e32b77f214/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:19.3.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/dbd328906607d7813ce438e32b77f214/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+79
+80        <receiver
+80-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+81            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+81-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+84        </receiver>
+85        <receiver
+85-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+86            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+86-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+87            android:enabled="true"
+87-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+88            android:exported="true"
+88-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+89            android:permission="android.permission.INSTALL_PACKAGES" >
+89-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+90            <intent-filter>
+90-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+91                <action android:name="com.android.vending.INSTALL_REFERRER" />
+91-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+91-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+92            </intent-filter>
+93        </receiver>
+94
+95        <service
+95-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+96            android:name="com.google.android.gms.measurement.AppMeasurementService"
+96-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+97            android:enabled="true"
+97-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+98            android:exported="false" />
+98-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+99        <service
+99-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+100            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+100-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+103            android:permission="android.permission.BIND_JOB_SERVICE" />
+103-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/ac2605da77983b497481f9e2091aefdd/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/7f7f4a08ef314948f5c5adc886e05717/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/7f7f4a08ef314948f5c5adc886e05717/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:17.0.0] /Users/andrewyu/.gradle/caches/transforms-2/files-2.1/7f7f4a08ef314948f5c5adc886e05717/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+108    </application>
+109
+110</manifest>

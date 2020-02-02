@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "97422499959",
+    "firebase_url": "https://sleephealthdog-1580599294046.firebaseio.com",
+    "project_id": "sleephealthdog-1580599294046",
+    "storage_bucket": "sleephealthdog-1580599294046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97422499959:android:5802ce8945440d9c562672",
+        "android_client_info": {
+          "package_name": "com.example.sleephealthdog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97422499959-tveq7hmadab965b31lji9bv9au3ctcn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKd2i0teAlD88Q4FLxFuQn9FMa-HDtBmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97422499959-tveq7hmadab965b31lji9bv9au3ctcn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

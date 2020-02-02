@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SleepHealthDog</string>
+    <string name="check_on_sleepy_s_health">Check on Sleepy\'s health!</string>
+    <string name="update">update</string>
+    <string name="puppyyawn">puppyyawn</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="profilepic">profilepic</string>
+    <string name="slumber_pup">Slumber Pup</string>
+    <string name="your_score_is" />
+    <string name="dog_mood" />
+    <string name="progress" />
+    <string name="today_s_mood">Today\'s Mood</string>
+    <string name="slumber_pup1">SLUMBER PUP</string>
+    <string name="emotion">Emotion</string>
+    <string name="your_score_is1">Your Score Is</string>
+    <string name="history">History</string>
+    <string name="progress1">Progress</string>
+    <string name="efficiency">Efficiency</string>
+    <string name="_1_year">1 year</string>
+    <string name="_1_month">1 month</string>
+    <string name="_1_week">1 Week</string>
+    <string name="time">Time</string>
+    <string name="score">Score</string>
+</resources>
